@@ -7,7 +7,7 @@ const changeBackgroundButton = document.getElementById(
 //funcion original antes de cambiarla. Con las flechas simplificamos y lo de abajo seria el resultado. Para que funcione tenemos que sustituir el "this" por la constante.
 //changeBackgroundButton.addEventListener("click", function() {
 //  this.style.backgroundColor = getRandomColor();
-//});
+//}); 
 changeBackgroundButton.addEventListener("click", () => (
 changeBackgroundButton.style.backgroundColor = getRandomColor()));
 
